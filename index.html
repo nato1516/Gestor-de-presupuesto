@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <p>Presupuesto mensual</p>
+    </nav>
+    <section class="flex-wrap">
+        <article class="container d-flex">
+            <div class="parte-arriba">
+                <div class="presupuesto-contenedor">
+                    <h2>Presupuesto</h2>
+                    <input type="number" id="presupuesto_num" placeholder="Ingrese el presupuesto" >
+                    <button class="button-enviar" id="guardar_btn_presupuesto"  >Guardar</button>
+                </div>
+                <div class="presupuesto-contenedor">
+                    <h2>Gastos</h2>
+                    <input type="text" id="nombre_gasto" placeholder="Nombre del gasto">
+                    <input type="number" id="cantidad_gasto" placeholder="Cantidad del gasto">
+                    <button class="button-enviar" id="guardar_btn_gastos" >Guardar</button>
+                </div>
+            </div>
+            <div class="desglose-contenedor">
+                <h2>Desglose mensual</h2>
+                <div id="contendor-presu">
+                    
+                </div>
+                <ul id="lista_desglose">
+                    
+                </ul>
+                <div id="contenedor-rest">
+                    
+                </div>
+            </div>
+        </article>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

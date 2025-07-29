@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(8, 86, 34);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.471);
+}
+
+nav p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.presupuesto-contenedor {
+    min-width: 400px;
+    width: 600px;
+    background-color: rgb(249, 250, 251);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.471);
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin: 30px 0;
+}
+
+h2 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+.presupuesto-contenedor input {
+    padding: 7px 10px;
+    width: 70%;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgb(8, 86, 34);
+    background-color: rgb(207, 245, 219);
+    color: #000000;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.presupuesto-contenedor input::placeholder {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.presupuesto-contenedor input:focus {
+    border: 2px solid rgb(35, 183, 13);
+    outline: none;
+}
+
+.button-enviar {
+    background-color: rgb(8, 86, 34);
+    color: #fff;
+    width: 100px;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.button-enviars {
+    background-color: rgb(8, 86, 34);
+    color: #fff;
+    padding: 20px 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+
+.desglose-contenedor {
+    min-width: 400px;
+    height: auto;
+    width: 600px;
+    background-color: rgb(249, 250, 251);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.471);
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    margin: 30px 0;
+}
+
+.Presupuesto {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 1px solid rgb(67, 206, 139);
+    border-bottom: 1px solid rgb(67, 206, 139);
+    width: 400px;
+    height: 55px;
+    text-align: center;
+    align-items: center;
+    padding: 15px 0;
+    color: #000000;
+    margin: 20px 0;
+}
+
+.Restante {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 1px solid rgb(67, 190, 206);
+    border-bottom: 1px solid rgb(67, 190, 206);
+    width: 400px;
+    height: 55px;
+    text-align: center;
+    align-items: center;
+    padding: 15px 0;
+    color: #000000;
+    margin: 20px 0;
+}
+
+.poco {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 1px solid rgb(224, 60, 60);
+    border-bottom: 1px solid rgb(224, 60, 60);
+    width: 400px;
+    height: 55px;
+    text-align: center;
+    align-items: center;
+    padding: 15px 0;
+    color: #ffffff;
+    background-color: rgb(224, 60, 60);
+    margin: 20px 0;
+}
+
+.nada {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 1px solid rgb(255, 0, 0);
+    border-bottom: 1px solid rgb(255, 0, 0);
+    width: 400px;
+    height: 55px;
+    text-align: center;
+    align-items: center;
+    padding: 15px 0;
+    color: #ffffff;
+    background-color: rgb(255, 0, 0);
+    margin: 20px 0;
+}
+
+.mitad {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 1px solid rgb(255, 238, 0);
+    border-bottom: 1px solid rgb(255, 238, 0);
+    width: 400px;
+    height: 55px;
+    text-align: center;
+    align-items: center;
+    padding: 15px 0;
+    color: #000000;
+    background-color: rgb(255, 238, 0);
+    margin: 20px 0;
+}
+
+#lista_desglose {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gasto {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 1px solid rgb(206, 67, 67);
+    border-bottom: 1px solid rgb(206, 67, 67);
+    width: 400px;
+    height: 55px;
+    text-align: center;
+    align-items: center;
+    padding: 15px 0;
+    color: #000000;
+    margin: 20px 0;
+}
+
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 1300px) {
+    .presupuesto-contenedor,
+    .desglose-contenedor,
+    .parte-arriba  {
+        width: 90%;
+        min-width: auto;
+        margin: 30px auto;
+    }
+
+    .Presupuesto,
+    .Restante,
+    .poco,
+    .nada,
+    .mitad,
+    .gasto {
+        width: 100%;
+    }
+
+    .d-flex,
+    .flex-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+    h2 {
+    font-size: 18px;
+    }
+    .presupuesto-contenedor{
+        min-height: 250px;
+    }
+}
