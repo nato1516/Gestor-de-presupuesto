@@ -90,7 +90,7 @@ function calcularRestante(){
         let totalgasto= document .createElement('li');
         totalgasto.innerHTML=`
         <li class="gasto"> Total de gasto ${totalGastos} </li>
-        <button class="button-enviars" onclick="limpiarLS()">Realizar nuevo calculo</button>
+        <button class="button-enviars" onclick="limpiarLS()">Realizar nuevo cálculo</button>
         `
         lista.appendChild(totalgasto)
         contRest.innerHTML='';
