@@ -219,7 +219,7 @@ h3 {
     .presupuesto-contenedor,
     .desglose-contenedor,
     .parte-arriba  {
-        width: 90%;
+        width: 95%;
         min-width: auto;
         margin: 30px auto;
     }
@@ -230,7 +230,7 @@ h3 {
     .nada,
     .mitad,
     .gasto {
-        width: 200px;
+        width: 250px;
     }
 
     .d-flex,
