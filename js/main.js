@@ -119,7 +119,6 @@ function crearEstructuraRestante(restante){
     `;
     contRest.appendChild(vistaRestante);
     }else if (restante <= porcentaje ){
-        alert("Ya te queda poco presupuesto")
         vistaRestante.innerHTML = `
         <h3>Restante</h3>
         <div class="poco">
@@ -129,7 +128,6 @@ function crearEstructuraRestante(restante){
     `;
     contRest.appendChild(vistaRestante);
     }else if(restante <= porcentajeM){
-        alert("Tienes la mitdad del presupuesto")
         vistaRestante.innerHTML = `
         <h3>Restante</h3>
         <div class="mitad">
