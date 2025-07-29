@@ -49,9 +49,8 @@ function crearEstructuraPresupuesto(){
     contPresuuesto.innerHTML='';
     let vistaPresupuesto = document.createElement('div');
     vistaPresupuesto.innerHTML=`
-    <h3>Presupuesto</h3>
     <div class="Presupuesto">
-        <p>${obtenerPresupuesto}</p>
+        <p>Presupuesto: ${obtenerPresupuesto}</p>
     </div>
     `
     contPresuuesto.appendChild(vistaPresupuesto)
@@ -59,12 +58,12 @@ function crearEstructuraPresupuesto(){
 
 function crearEstructuraGastos(){
     let gastos = obtenerGastosLS ();
+    
     lista.innerHTML='';
-    <h3>Gastos</h3>
     gastos.forEach(gasto =>{
         let gastoli= document .createElement('li');
         gastoli.innerHTML=`
-        <li class="gasto"> Nombre ${gasto.Nombre}  Cantidad ${gasto.Cantidad}</li>
+        <li class="gasto"> Gasto: ${gasto.Nombre}  Valor: ${gasto.Cantidad}</li>
         `
         lista.appendChild(gastoli);
     })
