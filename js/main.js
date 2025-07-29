@@ -60,6 +60,7 @@ function crearEstructuraPresupuesto(){
 function crearEstructuraGastos(){
     let gastos = obtenerGastosLS ();
     lista.innerHTML='';
+    <h3>Gastos</h3>
     gastos.forEach(gasto =>{
         let gastoli= document .createElement('li');
         gastoli.innerHTML=`
